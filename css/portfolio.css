@@ -1,0 +1,121 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  background: #18BC9C;
+  color: white;
+}
+
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#me {
+  margin: 0 auto;
+  width:25%;
+}
+#head {
+  margin: 0 auto;
+  width: 100px;
+  height: 125px;
+  background-color: #ffe0bd;
+}
+#cap {
+  margin: 0 auto;
+  background-color:red;
+  width:100px;
+  height:60px;
+  border-radius: 90px 90px 0 0;
+}
+#capOpening{
+  width:30px;
+  height:15px;
+  background-color:#ffe0bd;
+  transform:translate(32.5px,40px);
+}
+#face {
+  margin: 0 auto;
+  top:25px;
+  width: 100px;
+  height:90px;
+  position:relative;
+}
+.face {
+  margin: 0 auto;
+}
+#eyes {
+  width: 75px;
+}
+.eyes {
+  margin-right:10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin-bottom:5px;
+}
+#nose {
+  height: 15px;
+  width: 10px;
+  border: 2px solid black;
+  border-color: transparent transparent black black;
+  margin-bottom:5px;
+}
+#moustache {
+  width:70px;
+  border-bottom: 20px solid brown;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+header .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+.title{
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+#quotes{
+  text-align:center;
+}
+#quotes .quote {
+  font-size:1.5em;
+  padding-bottom:10px;
+}
+#quotes .collection {
+
+}
+#quotes .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#portfolio {
+  text-align: center;
+  background: #18BC9C;
+  color: white;
+}
+#portfolio .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#portfolio .portfolio-item {
+  display: block;
+  margin: 0 auto 50px auto;
+
+}
+#portfolio .preview {
+  max-height:200px;
+}
+#portfolio .portfolio-link {
+  background: rgba(24, 188, 156, 0.9);
+}
